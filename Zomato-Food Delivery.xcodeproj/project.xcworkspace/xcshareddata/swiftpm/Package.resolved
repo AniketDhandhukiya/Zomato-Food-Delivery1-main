@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DPOTPView",
+        "repositoryURL": "https://github.com/Datt1994/DPOTPView.git",
+        "state": {
+          "branch": null,
+          "revision": "950ecde0feef20f96abdd20a7442aa0ac2461626",
+          "version": "1.5.12"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

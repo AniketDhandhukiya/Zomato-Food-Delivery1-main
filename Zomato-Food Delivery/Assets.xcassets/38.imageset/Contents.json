@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "typical-healthy-maharashtrian-food-platter-thali-full-nutrients-selective-focus_466689-68695.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

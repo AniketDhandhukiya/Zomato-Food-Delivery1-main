@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "traditional-rajasthani-meal-dal-bati-churma-meal-fit-kings-brass-plate-following-items-served-lentil-stuffed-wheat-158606477.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

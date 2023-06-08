@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "outdoor-dining-social-distancing-midtown-manhattan-coronavirus-pandemic-new-york-july-outdoor-dining-social-190178895.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

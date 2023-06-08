@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "close-up-view-delicious-homemade-sandwich-fork-ketchup-fries-green-black-tray-gray-distressed-isolated-surface.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
