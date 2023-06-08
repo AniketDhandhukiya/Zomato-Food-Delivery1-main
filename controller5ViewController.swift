@@ -16,6 +16,7 @@ class controller5ViewController: UIViewController,UICollectionViewDelegate,UICol
    
     var imgArray : [Int] = []
     @IBOutlet weak var cv1: UICollectionView!
+    
     @IBOutlet weak var view1: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
