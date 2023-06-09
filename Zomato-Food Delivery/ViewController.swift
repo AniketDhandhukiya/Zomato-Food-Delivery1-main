@@ -9,13 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var pri: UIButton!
     @IBOutlet weak var mobileTextField: UITextField!
+    @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var mobileText: UITextField!
     @IBOutlet weak var loginimage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         loginimage.layer.cornerRadius = 45
         loginimage.layer.masksToBounds = true
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
     }
 
     @IBAction func continueAtion(_ sender: Any) {
@@ -44,9 +47,23 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(nv, animated: true)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     @IBAction func contentPolicies(_ sender: Any) {
         let nv = storyboard?.instantiateViewController(withIdentifier: "contentPage") as! contentPage
         navigationController?.pushViewController(nv, animated: true)
+    }
+    
+    @objc func keyboardWillShow(notification: NSNotification){
+        if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue{
+            //let keyboardHeight = keyboardFrame.cgRectValue.height
+            //let bottomSpace = self.view.frame.height - (continueButton.frame.origin.y + continueButton.frame.height)
+            //
+            //self.view.frame.origin.y -= keyboardHeight - bottomSpace + 10
+        }
+
     }
 }
 

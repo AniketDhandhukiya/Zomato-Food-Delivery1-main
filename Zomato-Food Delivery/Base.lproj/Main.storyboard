@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Ao-N8-ZwB">
-    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -16,11 +16,11 @@
             <objects>
                 <viewController storyboardIdentifier="termsOfPage" id="FyF-SI-tD4" customClass="termsOfPage" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dum-Is-PTc">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6hT-tN-Tqc">
-                                <rect key="frame" x="20" y="116" width="163" height="761"/>
+                                <rect key="frame" x="20" y="104" width="388" height="761"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="761" id="acd-I5-YEs"/>
@@ -765,7 +765,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms of Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFn-71-Uuc">
-                                <rect key="frame" x="20" y="84" width="163" height="24"/>
+                                <rect key="frame" x="20" y="72" width="388" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="Mba-0R-0fp"/>
                                     <constraint firstAttribute="width" constant="374" id="kbb-dM-xnY"/>
@@ -796,18 +796,18 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zomato-Machine-Learning-1" translatesAutoresizingMaskIntoConstraints="NO" id="oYY-DS-xDq">
-                                <rect key="frame" x="0.0" y="0.0" width="2240" height="335"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="335"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="335" id="23R-ry-kBd"/>
                                     <constraint firstAttribute="width" constant="414" id="Kol-7p-aJZ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India's  #1  Food Delivery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12d-GH-Tvr">
-                                <rect key="frame" x="20" y="393" width="2200" height="36"/>
+                                <rect key="frame" x="20" y="393" width="388" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="P46-ZF-dZv"/>
                                 </constraints>
@@ -816,7 +816,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and Dining App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ake-Xe-Cgi">
-                                <rect key="frame" x="20" y="438" width="2200" height="32"/>
+                                <rect key="frame" x="20" y="438" width="388" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="cNf-i5-Ove"/>
                                 </constraints>
@@ -825,7 +825,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in or sign up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JX1-hy-1lk">
-                                <rect key="frame" x="20" y="504" width="2200" height="24"/>
+                                <rect key="frame" x="20" y="504" width="388" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="Bx7-jC-d6C"/>
                                 </constraints>
@@ -834,7 +834,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Mobile Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HUT-HP-mbm">
-                                <rect key="frame" x="20" y="546" width="2200" height="34"/>
+                                <rect key="frame" x="20" y="546" width="388" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="MPP-mt-y2C"/>
                                 </constraints>
@@ -842,7 +842,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qy-Ck-4Ai">
-                                <rect key="frame" x="20" y="599" width="2200" height="48"/>
+                                <rect key="frame" x="20" y="599" width="388" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="eMq-eF-Qj1"/>
                                 </constraints>
@@ -857,7 +857,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsX-wN-xhU">
-                                <rect key="frame" x="196" y="677" width="1848" height="22"/>
+                                <rect key="frame" x="196" y="677" width="36" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="b5d-Gy-3av"/>
                                 </constraints>
@@ -954,9 +954,12 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                     </view>
                     <navigationItem key="navigationItem" id="fOO-dd-8w0"/>
                     <connections>
+                        <outlet property="continue" destination="2Qy-Ck-4Ai" id="gvU-4z-9on"/>
+                        <outlet property="continueButton" destination="2Qy-Ck-4Ai" id="oqm-kn-qqo"/>
                         <outlet property="loginimage" destination="oYY-DS-xDq" id="0TU-pX-tdg"/>
                         <outlet property="mobileText" destination="HUT-HP-mbm" id="emS-Fb-wMv"/>
                         <outlet property="mobileTextField" destination="HUT-HP-mbm" id="jXh-9j-Ald"/>
+                        <outlet property="pri" destination="pcB-r2-Y3m" id="0eU-Mq-wJ0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -968,11 +971,11 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             <objects>
                 <viewController storyboardIdentifier="locationPage" id="x8d-HD-iRP" customClass="locationPage" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="phs-Ve-hrP">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We don't have your " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHQ-Ft-WbI">
-                                <rect key="frame" x="20" y="440" width="390" height="36"/>
+                                <rect key="frame" x="20" y="428" width="388" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="FN4-AK-8vV"/>
                                 </constraints>
@@ -981,7 +984,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location, yet!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWl-3P-gOh">
-                                <rect key="frame" x="20" y="479" width="390" height="32"/>
+                                <rect key="frame" x="20" y="467" width="388" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Z5z-Zt-ESU"/>
                                 </constraints>
@@ -990,7 +993,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set your location to start exploring" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPD-u1-Jqa">
-                                <rect key="frame" x="20" y="532" width="390" height="36"/>
+                                <rect key="frame" x="20" y="520" width="388" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="xbf-Wq-dDI"/>
                                 </constraints>
@@ -999,7 +1002,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" restaurants near you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cv-BS-a1E">
-                                <rect key="frame" x="20" y="566" width="390" height="26"/>
+                                <rect key="frame" x="20" y="554" width="388" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="6Ku-OX-iik"/>
                                 </constraints>
@@ -1008,7 +1011,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Z4-1K-mtk">
-                                <rect key="frame" x="20" y="615" width="390" height="48"/>
+                                <rect key="frame" x="20" y="603" width="388" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="pC6-1F-tAV"/>
                                 </constraints>
@@ -1023,7 +1026,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEC-6J-YHg">
-                                <rect key="frame" x="20" y="671" width="390" height="48"/>
+                                <rect key="frame" x="20" y="659" width="388" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="2e7-v1-ePU"/>
                                 </constraints>
@@ -1035,7 +1038,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 </buttonConfiguration>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man-lost-the-location-png" translatesAutoresizingMaskIntoConstraints="NO" id="WJO-fm-WwG">
-                                <rect key="frame" x="87" y="163" width="256" height="223"/>
+                                <rect key="frame" x="87" y="151" width="254" height="223"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="223" id="0B9-fN-9np"/>
                                 </constraints>
@@ -1104,14 +1107,14 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             <objects>
                 <viewController storyboardIdentifier="zomatoMainPag" automaticallyAdjustsScrollViewInsets="NO" id="q2G-p2-B9i" customClass="zomatoMainPag" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="suI-6D-m93">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCv-nk-ITi">
-                                <rect key="frame" x="0.0" y="59" width="430" height="917"/>
+                                <rect key="frame" x="0.0" y="47" width="428" height="923"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mcp-Ob-76a">
-                                        <rect key="frame" x="0.0" y="0.0" width="430" height="2500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="2500"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Gsz-qg-GJF">
                                                 <rect key="frame" x="19" y="0.0" width="32" height="32"/>
@@ -1147,7 +1150,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <searchBar contentMode="redraw" placeholder=" Search Here..." translatesAutoresizingMaskIntoConstraints="NO" id="nbL-w1-JLS">
-                                                <rect key="frame" x="8" y="47" width="414" height="44"/>
+                                                <rect key="frame" x="7" y="47" width="414" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="414" id="85K-MY-LCl"/>
                                                     <constraint firstAttribute="height" constant="44" id="Sop-Ei-gei"/>
@@ -1167,7 +1170,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8uW-ye-AMp">
-                                                <rect key="frame" x="8" y="152" width="414" height="200"/>
+                                                <rect key="frame" x="8" y="152" width="412" height="200"/>
                                                 <color key="backgroundColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="BUw-fC-53l"/>
@@ -1230,7 +1233,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- - - - - - - - -  A L L  R E S T A U R A N T S  - - - - - - - - -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cr1-aQ-kOp">
-                                                <rect key="frame" x="22" y="619" width="390" height="20"/>
+                                                <rect key="frame" x="22" y="619" width="388" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="Ox6-cV-egg"/>
                                                 </constraints>
@@ -1239,13 +1242,13 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="332 restaurants delivering to you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nw0-wF-KQP">
-                                                <rect key="frame" x="22" y="661" width="390" height="18"/>
+                                                <rect key="frame" x="22" y="661" width="388" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RMZ-gT-qRp">
-                                                <rect key="frame" x="-27" y="698" width="482" height="1802"/>
+                                                <rect key="frame" x="-27" y="698" width="480" height="1802"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="25" minimumInteritemSpacing="10" id="uRX-Kj-rcV">
                                                     <size key="itemSize" width="405" height="235"/>
@@ -1255,7 +1258,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCell3" reuseIdentifier="cell3" id="PxA-gz-xcf" customClass="CollectionViewCell3" customModule="Zomato_Food_Delivery" customModuleProvider="target">
-                                                        <rect key="frame" x="38.666666666666664" y="0.0" width="405" height="235"/>
+                                                        <rect key="frame" x="37.666666666666664" y="0.0" width="405" height="235"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="O5s-r1-sQJ">
                                                             <rect key="frame" x="0.0" y="0.0" width="405" height="235"/>
@@ -1342,7 +1345,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 </connections>
                                             </collectionView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2jE-9W-s3E">
-                                                <rect key="frame" x="8" y="412" width="414" height="191"/>
+                                                <rect key="frame" x="8" y="412" width="412" height="191"/>
                                                 <color key="backgroundColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="191" id="9mK-Xy-G3B"/>
@@ -1462,22 +1465,22 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
         <scene sceneID="7ye-oC-rdU">
             <objects>
                 <viewController storyboardIdentifier="controller5ViewController" id="AHi-a8-AA1" customClass="controller5ViewController" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ROb-Ie-NsH">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ROb-Ie-NsH">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="I9K-rh-4iQ">
-                                <rect key="frame" x="0.0" y="59" width="430" height="44"/>
+                                <rect key="frame" x="0.0" y="47" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="YCt-GF-wk9"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKS-Ir-epb">
-                                <rect key="frame" x="0.0" y="103" width="430" height="808"/>
+                                <rect key="frame" x="0.0" y="91" width="414" height="808"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kw0-ce-LFP">
-                                        <rect key="frame" x="0.0" y="0.0" width="430" height="900"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GnQ-g7-3g6">
                                                 <rect key="frame" x="8" y="0.0" width="398" height="99"/>
@@ -1655,18 +1658,18 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             <objects>
                 <viewController storyboardIdentifier="diningPage" id="X6z-wn-Bzg" customClass="diningPage" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ibv-mR-MPz">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="qR9-Kn-FJ6">
-                                <rect key="frame" x="20" y="59" width="32" height="32"/>
+                                <rect key="frame" x="20" y="47" width="32" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="8Yz-cT-Z9H"/>
                                     <constraint firstAttribute="width" constant="32" id="fyF-g7-Kpr"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8K-E3-FUz">
-                                <rect key="frame" x="60" y="59" width="48" height="21"/>
+                                <rect key="frame" x="60" y="47" width="48" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="HiB-Cj-UH3"/>
                                     <constraint firstAttribute="width" constant="48" id="Lc0-lS-RuG"/>
@@ -1676,14 +1679,14 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="w8a-SU-wac">
-                                <rect key="frame" x="107" y="63" width="32" height="16"/>
+                                <rect key="frame" x="107" y="51" width="32" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="32" id="Oh2-Bs-HQp"/>
                                     <constraint firstAttribute="height" constant="16" id="m7s-2v-hVP"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16, maheshvar soc. Varachha road Surat-6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cA-PU-doa">
-                                <rect key="frame" x="60" y="79" width="337" height="15"/>
+                                <rect key="frame" x="60" y="67" width="351" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="E2k-Fg-YkU"/>
                                     <constraint firstAttribute="width" constant="337" id="IxI-bI-ugh"/>
@@ -1693,10 +1696,10 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ws-ed-n9s">
-                                <rect key="frame" x="0.0" y="94" width="414" height="838"/>
+                                <rect key="frame" x="0.0" y="82" width="428" height="844"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmV-IR-Wqg">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="1500"/>
                                         <subviews>
                                             <searchBar contentMode="redraw" placeholder="  Search Location..." translatesAutoresizingMaskIntoConstraints="NO" id="9Lc-pI-Ofc">
                                                 <rect key="frame" x="8" y="8" width="385" height="44"/>
@@ -1724,7 +1727,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⎯⎯⎯⎯⎯⎯ W H A T  A R E  Y O U   L O O K I N G  F O R ? ⎯⎯⎯⎯⎯⎯" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vq-Ly-lef">
-                                                <rect key="frame" x="8" y="245" width="398" height="20"/>
+                                                <rect key="frame" x="8" y="245" width="412" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="rHv-Ox-9b4"/>
                                                 </constraints>
@@ -1753,7 +1756,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 <rect key="frame" x="149" y="415" width="114" height="104"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="96" translatesAutoresizingMaskIntoConstraints="NO" id="n7r-2B-539">
-                                                <rect key="frame" x="291" y="415" width="114" height="104"/>
+                                                <rect key="frame" x="291" y="415" width="128" height="104"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="91" translatesAutoresizingMaskIntoConstraints="NO" id="LP9-EN-vOT">
                                                 <rect key="frame" x="8" y="285" width="114" height="104"/>
@@ -1771,7 +1774,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeI-eM-Fg9">
-                                                <rect key="frame" x="291" y="390" width="114" height="21"/>
+                                                <rect key="frame" x="291" y="390" width="128" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1792,7 +1795,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desserts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYh-W8-WdK">
-                                                <rect key="frame" x="291" y="520" width="114" height="21"/>
+                                                <rect key="frame" x="291" y="520" width="128" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2002,7 +2005,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             <objects>
                 <viewController storyboardIdentifier="popup" modalPresentationStyle="overFullScreen" id="dtE-hm-r06" customClass="popup" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iSh-9r-2l2">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wzh-cW-YbZ">
@@ -2058,18 +2061,18 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             <objects>
                 <viewController storyboardIdentifier="moneyPage" id="0dc-AB-eDN" customClass="moneyPage" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JG2-e5-NZj">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="yMZ-gF-nua">
-                                <rect key="frame" x="20" y="59" width="32" height="32"/>
+                                <rect key="frame" x="20" y="47" width="32" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Xo8-th-gQf"/>
                                     <constraint firstAttribute="width" constant="32" id="obT-tU-ySt"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeI-5z-8cL">
-                                <rect key="frame" x="60" y="59" width="48" height="21"/>
+                                <rect key="frame" x="60" y="47" width="48" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="Qkm-b8-lkq"/>
                                     <constraint firstAttribute="height" constant="21" id="nEI-yB-ioE"/>
@@ -2079,14 +2082,14 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="KKZ-GC-HyY">
-                                <rect key="frame" x="107" y="63" width="32" height="16"/>
+                                <rect key="frame" x="107" y="51" width="32" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="16" id="eT4-tj-vBA"/>
                                     <constraint firstAttribute="width" constant="32" id="h9V-Zf-1sd"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16, maheshvar soc. Varachha road Surat-6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mrt-D1-Let">
-                                <rect key="frame" x="60" y="79" width="337" height="15"/>
+                                <rect key="frame" x="60" y="67" width="337" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="337" id="Nok-oI-2kP"/>
                                     <constraint firstAttribute="height" constant="15" id="ub7-Ax-Eys"/>
@@ -2096,14 +2099,14 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" image="wallet (2)" translatesAutoresizingMaskIntoConstraints="NO" id="4l6-eL-AP8">
-                                <rect key="frame" x="113" y="175" width="189" height="180"/>
+                                <rect key="frame" x="113" y="163" width="189" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="189" id="Cda-Gw-Exk"/>
                                     <constraint firstAttribute="height" constant="180" id="I8l-qs-qZi"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zomato Wallet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfb-Py-aOh">
-                                <rect key="frame" x="20" y="402" width="374" height="40"/>
+                                <rect key="frame" x="20" y="390" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="dqs-64-aIL"/>
                                     <constraint firstAttribute="height" constant="40" id="k0T-JZ-uQL"/>
@@ -2113,7 +2116,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seamless one-click checkout for all payments on Zomato" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSy-yR-WsC">
-                                <rect key="frame" x="20" y="449" width="374" height="30"/>
+                                <rect key="frame" x="20" y="437" width="374" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="8eg-6z-89M"/>
                                     <constraint firstAttribute="height" constant="30" id="ZoC-po-JxM"/>
@@ -2123,7 +2126,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvY-xx-P2x">
-                                <rect key="frame" x="20" y="501" width="374" height="47"/>
+                                <rect key="frame" x="20" y="489" width="374" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="XqN-r6-hLU"/>
                                     <constraint firstAttribute="height" constant="47" id="lkY-wx-6E3"/>
@@ -2173,7 +2176,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             <objects>
                 <viewController storyboardIdentifier="otpPAg" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oLz-iH-bIq" customClass="otpPAg" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L0W-s8-vPS">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter OTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcC-Of-8GN">
@@ -2242,11 +2245,11 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             <objects>
                 <viewController storyboardIdentifier="privacyPolicyPage" id="fZ0-7E-fwg" customClass="privacyPolicyPage" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NgN-Ju-EfP">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YT8-tA-eP7">
-                                <rect key="frame" x="20" y="120" width="136.66666666666666" height="757"/>
+                                <rect key="frame" x="20" y="108" width="388" height="757"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="757" id="JdG-p0-9cy"/>
@@ -2465,7 +2468,7 @@ Mint Hill, NC 28227
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcl-5T-CBq">
-                                <rect key="frame" x="20" y="88" width="136.66666666666666" height="24"/>
+                                <rect key="frame" x="20" y="76" width="388" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="LMz-mB-5Sd"/>
                                     <constraint firstAttribute="width" constant="374" id="fQN-rI-O8l"/>
@@ -2496,11 +2499,11 @@ Mint Hill, NC 28227
             <objects>
                 <viewController storyboardIdentifier="contentPage" id="X8f-nC-7Us" customClass="contentPage" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wns-O4-h7Z">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nuS-15-CPp">
-                                <rect key="frame" x="20.000000000000014" y="114" width="224.33333333333337" height="763"/>
+                                <rect key="frame" x="20" y="102" width="388" height="763"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="763" id="5gH-Xl-0Kl"/>
@@ -2619,7 +2622,7 @@ Please email legal@zomato.com if you witness any behavior not in compliance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWw-uE-biq">
-                                <rect key="frame" x="20.000000000000014" y="82" width="224.33333333333337" height="24"/>
+                                <rect key="frame" x="20" y="70" width="388" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="QuT-fD-c7K"/>
                                     <constraint firstAttribute="height" constant="24" id="T4C-mX-D8d"/>
@@ -2653,7 +2656,7 @@ Please email legal@zomato.com if you witness any behavior not in compliance with
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Ao-N8-ZwB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vIe-xZ-vve">
-                        <rect key="frame" x="0.0" y="59" width="430" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
