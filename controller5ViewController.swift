@@ -52,22 +52,44 @@ class controller5ViewController: UIViewController,UICollectionViewDelegate,UICol
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row == 0{
             let nv = storyboard?.instantiateViewController(withIdentifier: "popup") as! popup
+            nv.a = array2[indexPath.row]
+            nv.b = array1[indexPath.row]
             present(nv, animated: false)
         }
         else if indexPath.row == 1{
             let nv = storyboard?.instantiateViewController(withIdentifier: "popup") as! popup
+            nv.a = array2[indexPath.row]
+            nv.b = array1[indexPath.row]
             present(nv, animated: false)
         }
         else if indexPath.row == 2{
             let nv = storyboard?.instantiateViewController(withIdentifier: "popup") as! popup
+            nv.a = array2[indexPath.row]
+            nv.b = array1[indexPath.row]
             present(nv, animated: false)
         }
         else if indexPath.row == 3{
             let nv = storyboard?.instantiateViewController(withIdentifier: "popup") as! popup
+            nv.a = array2[indexPath.row]
+            nv.b = array1[indexPath.row]
             present(nv, animated: false)
         }
         else if indexPath.row == 4{
             let nv = storyboard?.instantiateViewController(withIdentifier: "popup") as! popup
+            nv.a = array2[indexPath.row]
+            nv.b = array1[indexPath.row]
+            present(nv, animated: false)
+        }
+        else if indexPath.row == 5{
+            let nv = storyboard?.instantiateViewController(withIdentifier: "popup") as! popup
+            nv.a = array2[indexPath.row]
+            nv.b = array1[indexPath.row]
+            present(nv, animated: false)
+        }
+        else if indexPath.row == 6{
+            let nv = storyboard?.instantiateViewController(withIdentifier: "popup") as! popup
+            nv.a = array2[indexPath.row]
+            nv.b = array1[indexPath.row]
             present(nv, animated: false)
         }
     }

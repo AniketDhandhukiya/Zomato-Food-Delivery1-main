@@ -1529,7 +1529,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                             </view>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="30u-eX-7CG">
-                                                <rect key="frame" x="0.0" y="107" width="398" height="793"/>
+                                                <rect key="frame" x="8" y="92" width="398" height="793"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="t2o-7R-Wcx">
@@ -1569,6 +1569,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                                     </buttonConfiguration>
                                                                     <connections>
                                                                         <action selector="add:" destination="AHi-a8-AA1" eventType="touchUpInside" id="lC8-fN-gvR"/>
+                                                                        <action selector="addB:" destination="rRG-KP-j1l" eventType="touchUpInside" id="Imc-pg-brt"/>
                                                                         <action selector="addbutton:" destination="rRG-KP-j1l" eventType="touchUpInside" id="WfE-UF-PTl"/>
                                                                     </connections>
                                                                 </button>
@@ -2040,6 +2041,20 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yi8-Fo-Lea">
+                                        <rect key="frame" x="8" y="34" width="221" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKC-8Y-73G">
+                                        <rect key="frame" x="8" y="109" width="148" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -2064,14 +2079,16 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="foodName" destination="Yi8-Fo-Lea" id="WGA-Fc-XnD"/>
                         <outlet property="label1" destination="bWN-u5-w3B" id="D59-76-Hc1"/>
                         <outlet property="pop" destination="Wzh-cW-YbZ" id="a4h-5t-tWy"/>
+                        <outlet property="price" destination="uKC-8Y-73G" id="T4B-Ls-NXY"/>
                         <outlet property="stepper" destination="g9g-p0-qXn" id="Eh8-cf-frb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XPs-aP-myh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7624.1860465116279" y="-585.83690987124464"/>
+            <point key="canvasLocation" x="7623.3644859813076" y="-586.39308855291586"/>
         </scene>
         <!--Money Page-->
         <scene sceneID="Hj7-2O-41Y">
