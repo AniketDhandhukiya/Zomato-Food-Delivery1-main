@@ -16,13 +16,12 @@ class otpPAg: UIViewController {
     
     @IBOutlet weak var otpView: DPOTPView!
     
-    @IBAction func otpContinueAction(_ sender: Any) {
-        if otpView.validate(){
-            let nv = storyboard?.instantiateViewController(withIdentifier: "zomatoMainPag") as! zomatoMainPag
-            navigationController?.pushViewController(nv, animated: true)
-        }
-        
-      
-    }
     
+        
+    
+    
+    @IBAction func continueButton(_ sender: Any) {
+        let nv = storyboard?.instantiateViewController(withIdentifier: "TabBar") as! TabBar
+        navigationController?.pushViewController(nv, animated: true)
+    }
 }

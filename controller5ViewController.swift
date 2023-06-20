@@ -55,6 +55,7 @@ class controller5ViewController: UIViewController,UICollectionViewDelegate,UICol
             nv.a = array2[indexPath.row]
             nv.b = array1[indexPath.row]
             present(nv, animated: false)
+            
         }
         else if indexPath.row == 1{
             let nv = storyboard?.instantiateViewController(withIdentifier: "popup") as! popup

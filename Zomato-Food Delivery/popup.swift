@@ -12,6 +12,7 @@ class popup: UIViewController {
     var a = ""
     var b = ""
     var c = ""
+    @IBOutlet weak var AddButton: UIButton!
     @IBOutlet weak var foodName: UILabel!
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var label1: UILabel!
@@ -21,14 +22,16 @@ class popup: UIViewController {
         super.viewDidLoad()
         self.pop.alpha = 0
         pop.layer.cornerRadius = 20
-        stepper.layer.cornerRadius = 11
-        stepper.maximumValue = 50
+        stepper.layer.cornerRadius = 20
+        stepper.maximumValue = 10
+        AddButton.layer.cornerRadius = 20
         stepper.minimumValue = 0
         stepper.value = 0
         stepper.stepValue = 1
         label1.text = Int(stepper.value).description
         price.text = a
         foodName.text = b
+        stepper.layer.cornerRadius = 11
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -40,10 +43,6 @@ class popup: UIViewController {
     
     @IBAction func stepperAction(_ sender: Any) {
         label1.text = Int(stepper.value).description
-        if label1.text == "1"{
-            price.text = "\(price.text)"
-        }
-
     }
     @IBAction func close(_ sender: Any) {
         dismiss(animated: true)
