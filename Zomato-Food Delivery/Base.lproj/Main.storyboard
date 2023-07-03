@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -791,23 +792,22 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
             </objects>
             <point key="canvasLocation" x="1039.1304347826087" y="-585.26785714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController1" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zomato-Machine-Learning-1" translatesAutoresizingMaskIntoConstraints="NO" id="oYY-DS-xDq">
-                                <rect key="frame" x="0.0" y="0.0" width="2240" height="335"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="335"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="335" id="23R-ry-kBd"/>
-                                    <constraint firstAttribute="width" constant="414" id="Kol-7p-aJZ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India's  #1  Food Delivery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12d-GH-Tvr">
-                                <rect key="frame" x="20" y="393" width="2200" height="36"/>
+                                <rect key="frame" x="20" y="393" width="388" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="P46-ZF-dZv"/>
                                 </constraints>
@@ -816,7 +816,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and Dining App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ake-Xe-Cgi">
-                                <rect key="frame" x="20" y="438" width="2200" height="32"/>
+                                <rect key="frame" x="20" y="438" width="388" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="cNf-i5-Ove"/>
                                 </constraints>
@@ -825,7 +825,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in or sign up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JX1-hy-1lk">
-                                <rect key="frame" x="20" y="504" width="2200" height="24"/>
+                                <rect key="frame" x="20" y="504" width="388" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="Bx7-jC-d6C"/>
                                 </constraints>
@@ -834,7 +834,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Mobile Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HUT-HP-mbm">
-                                <rect key="frame" x="20" y="546" width="2200" height="34"/>
+                                <rect key="frame" x="20" y="546" width="388" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="MPP-mt-y2C"/>
                                 </constraints>
@@ -842,7 +842,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qy-Ck-4Ai">
-                                <rect key="frame" x="20" y="599" width="2200" height="48"/>
+                                <rect key="frame" x="20" y="637" width="388" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="eMq-eF-Qj1"/>
                                 </constraints>
@@ -857,7 +857,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsX-wN-xhU">
-                                <rect key="frame" x="196" y="677" width="1848" height="22"/>
+                                <rect key="frame" x="196" y="693" width="36" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="b5d-Gy-3av"/>
                                 </constraints>
@@ -865,16 +865,17 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By continuting, you agree to our" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qS-lZ-azZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By continuting, you agree to our" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qS-lZ-azZ">
                                 <rect key="frame" x="20" y="832" width="374" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8if-OJ-Lto"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xG-Vn-P2W">
-                                <rect key="frame" x="86" y="860" width="84" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xG-Vn-P2W">
+                                <rect key="frame" x="86" y="860" width="84" height="22.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Terms of Service">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="7"/>
@@ -884,9 +885,8 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                     <action selector="termsOfAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8IX-B2-t0o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcB-r2-Y3m">
-                                <rect key="frame" x="171" y="860" width="75" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcB-r2-Y3m">
+                                <rect key="frame" x="171" y="860" width="75" height="22.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Privacy Policy">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="7"/>
@@ -896,9 +896,11 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                     <action selector="privacyPolicyAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iuN-40-Xf8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN9-rX-Nqg">
-                                <rect key="frame" x="247" y="860" width="84" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN9-rX-Nqg">
+                                <rect key="frame" x="247" y="860" width="84" height="22.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="a3o-Q7-mj1"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Content Policies">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="7"/>
@@ -908,9 +910,12 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                     <action selector="contentPolicies:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dtV-AP-2oc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFq-Na-1EE">
-                                <rect key="frame" x="131" y="707" width="50" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFq-Na-1EE">
+                                <rect key="frame" x="133" y="723" width="50" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="FYG-Lb-SkR"/>
+                                    <constraint firstAttribute="height" constant="45" id="snA-lx-glr"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" image="google (1)" cornerStyle="large">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
@@ -919,36 +924,76 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                     <action selector="loginGoogleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kfd-P1-nBU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWz-dH-Tsu">
-                                <rect key="frame" x="237" y="707" width="50" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWz-dH-Tsu">
+                                <rect key="frame" x="237" y="723" width="50" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="GDH-v9-xCl"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" image="apple-logo" cornerStyle="large"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q6R-an-bXm">
+                                <rect key="frame" x="20" y="595" width="388" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TS-Y9-qbL">
+                                <rect key="frame" x="122" y="776" width="184" height="28"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="New User? Create Account">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="0.0"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="newUserAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P5C-5o-gtO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="7xG-Vn-P2W" firstAttribute="baseline" secondItem="cN9-rX-Nqg" secondAttribute="baseline" id="0XB-cy-yIe"/>
+                            <constraint firstItem="ZWz-dH-Tsu" firstAttribute="baseline" secondItem="fFq-Na-1EE" secondAttribute="baseline" id="4dp-oF-Vdc"/>
+                            <constraint firstItem="7xG-Vn-P2W" firstAttribute="top" secondItem="9qS-lZ-azZ" secondAttribute="bottom" constant="7" id="7Iz-DS-kUc"/>
+                            <constraint firstItem="pcB-r2-Y3m" firstAttribute="leading" secondItem="7xG-Vn-P2W" secondAttribute="trailing" constant="1" id="9Hm-Mv-bQ1"/>
                             <constraint firstItem="ake-Xe-Cgi" firstAttribute="top" secondItem="12d-GH-Tvr" secondAttribute="bottom" constant="9" id="9NR-s5-qLV"/>
+                            <constraint firstItem="oYY-DS-xDq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ae7-BC-WIr"/>
                             <constraint firstItem="HUT-HP-mbm" firstAttribute="top" secondItem="JX1-hy-1lk" secondAttribute="bottom" constant="18" id="BAP-xO-kO9"/>
-                            <constraint firstItem="2Qy-Ck-4Ai" firstAttribute="top" secondItem="HUT-HP-mbm" secondAttribute="bottom" constant="19" id="CRU-G8-xHt"/>
-                            <constraint firstItem="oYY-DS-xDq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IJZ-nT-63o"/>
+                            <constraint firstItem="2Qy-Ck-4Ai" firstAttribute="top" secondItem="HUT-HP-mbm" secondAttribute="bottom" constant="57" id="CRU-G8-xHt"/>
+                            <constraint firstItem="ZWz-dH-Tsu" firstAttribute="leading" secondItem="fFq-Na-1EE" secondAttribute="trailing" constant="54" id="GlU-S4-WV7"/>
+                            <constraint firstItem="1TS-Y9-qbL" firstAttribute="top" secondItem="fFq-Na-1EE" secondAttribute="bottom" constant="8" symbolic="YES" id="I2m-zJ-2Yv"/>
+                            <constraint firstItem="1TS-Y9-qbL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="122" id="Ii1-Qt-BGd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HUT-HP-mbm" secondAttribute="trailing" constant="20" id="KoA-xg-iwt"/>
                             <constraint firstItem="12d-GH-Tvr" firstAttribute="top" secondItem="oYY-DS-xDq" secondAttribute="bottom" constant="58" id="LX7-rA-5iG"/>
                             <constraint firstItem="HUT-HP-mbm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MLH-DT-nRk"/>
                             <constraint firstItem="oYY-DS-xDq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MTx-Zv-a9h"/>
+                            <constraint firstItem="1TS-Y9-qbL" firstAttribute="centerX" secondItem="CsX-wN-xhU" secondAttribute="centerX" id="MiD-jr-h3u"/>
+                            <constraint firstItem="q6R-an-bXm" firstAttribute="leading" secondItem="HUT-HP-mbm" secondAttribute="leading" id="REn-Wh-gs2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="12d-GH-Tvr" secondAttribute="trailing" constant="20" id="Rgf-UJ-W84"/>
+                            <constraint firstItem="9qS-lZ-azZ" firstAttribute="top" secondItem="1TS-Y9-qbL" secondAttribute="bottom" constant="28" id="WS0-dz-wfy"/>
+                            <constraint firstItem="2Qy-Ck-4Ai" firstAttribute="top" secondItem="q6R-an-bXm" secondAttribute="bottom" constant="8" symbolic="YES" id="Wpo-A4-aDa"/>
                             <constraint firstItem="2Qy-Ck-4Ai" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yep-qn-RE0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CsX-wN-xhU" secondAttribute="trailing" constant="196" id="ZWH-GX-QFb"/>
+                            <constraint firstAttribute="bottom" secondItem="1TS-Y9-qbL" secondAttribute="bottom" constant="122" id="bYW-78-B8e"/>
+                            <constraint firstItem="q6R-an-bXm" firstAttribute="trailing" secondItem="HUT-HP-mbm" secondAttribute="trailing" id="cmb-Xb-WNf"/>
                             <constraint firstItem="CsX-wN-xhU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="196" id="dek-rn-omb"/>
+                            <constraint firstItem="cN9-rX-Nqg" firstAttribute="leading" secondItem="pcB-r2-Y3m" secondAttribute="trailing" constant="1" id="ee1-nz-h4t"/>
+                            <constraint firstItem="ZWz-dH-Tsu" firstAttribute="firstBaseline" secondItem="fFq-Na-1EE" secondAttribute="firstBaseline" id="gKp-yq-tAZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZWz-dH-Tsu" secondAttribute="trailing" constant="141" id="jTu-8c-Xwd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JX1-hy-1lk" secondAttribute="trailing" constant="20" id="mK4-HT-gcG"/>
                             <constraint firstItem="ake-Xe-Cgi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mrk-io-9Eh"/>
+                            <constraint firstItem="fFq-Na-1EE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="oUa-Ou-1Bo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ake-Xe-Cgi" secondAttribute="trailing" constant="20" id="pG6-NK-7Me"/>
                             <constraint firstItem="12d-GH-Tvr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="q8E-4w-b2w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9qS-lZ-azZ" secondAttribute="trailing" constant="34" id="qJD-vk-vOF"/>
+                            <constraint firstItem="7xG-Vn-P2W" firstAttribute="baseline" secondItem="pcB-r2-Y3m" secondAttribute="baseline" id="qpp-iV-1lT"/>
                             <constraint firstItem="JX1-hy-1lk" firstAttribute="top" secondItem="ake-Xe-Cgi" secondAttribute="bottom" constant="34" id="t6n-gp-884"/>
-                            <constraint firstItem="oYY-DS-xDq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tQz-s6-DgN"/>
                             <constraint firstItem="JX1-hy-1lk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tpb-jZ-LRT"/>
-                            <constraint firstItem="CsX-wN-xhU" firstAttribute="top" secondItem="2Qy-Ck-4Ai" secondAttribute="bottom" constant="30" id="xyR-lZ-iJp"/>
+                            <constraint firstItem="7xG-Vn-P2W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="umJ-kD-ZK7"/>
+                            <constraint firstItem="9qS-lZ-azZ" firstAttribute="leading" secondItem="2Qy-Ck-4Ai" secondAttribute="leading" id="v7s-gB-NPp"/>
+                            <constraint firstItem="CsX-wN-xhU" firstAttribute="top" secondItem="2Qy-Ck-4Ai" secondAttribute="bottom" constant="8" id="xyR-lZ-iJp"/>
+                            <constraint firstItem="oYY-DS-xDq" firstAttribute="centerX" secondItem="12d-GH-Tvr" secondAttribute="centerX" id="y7u-go-sHZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cN9-rX-Nqg" secondAttribute="trailing" constant="97" id="z2y-q1-4G6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Qy-Ck-4Ai" secondAttribute="trailing" constant="20" id="zoW-wP-RCV"/>
                         </constraints>
                     </view>
@@ -957,13 +1002,77 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                         <outlet property="continueButton" destination="2Qy-Ck-4Ai" id="oqm-kn-qqo"/>
                         <outlet property="loginimage" destination="oYY-DS-xDq" id="0TU-pX-tdg"/>
                         <outlet property="mobileText" destination="HUT-HP-mbm" id="emS-Fb-wMv"/>
-                        <outlet property="mobileTextField" destination="HUT-HP-mbm" id="jXh-9j-Ald"/>
+                        <outlet property="passwordText" destination="q6R-an-bXm" id="c42-hG-VyW"/>
                         <outlet property="pri" destination="pcB-r2-Y3m" id="0eU-Mq-wJ0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042.0289855072465" y="114.50892857142857"/>
+            <point key="canvasLocation" x="1041.5887850467288" y="114.03887688984882"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rmh-D9-f34">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="lVw-BD-kkB" customClass="ViewController" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mdn-La-cI7">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSY-rJ-AD1">
+                                <rect key="frame" x="20" y="145" width="388" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="qtI-5c-g6V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zAT-HH-aee">
+                                <rect key="frame" x="20" y="230" width="388" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fFG-Oy-QqD">
+                                <rect key="frame" x="20" y="298" width="388" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKz-2u-1rR">
+                                <rect key="frame" x="159" y="383" width="111" height="46"/>
+                                <color key="tintColor" red="0.88358265160000005" green="0.21911963819999999" blue="0.26403817530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Submit">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="SubmitAction:" destination="lVw-BD-kkB" eventType="touchUpInside" id="SId-uz-lrX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VOu-kn-fun"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nSY-rJ-AD1" firstAttribute="leading" secondItem="fFG-Oy-QqD" secondAttribute="leading" id="0gX-cl-CMY"/>
+                            <constraint firstItem="nSY-rJ-AD1" firstAttribute="leading" secondItem="mdn-La-cI7" secondAttribute="leadingMargin" id="3l7-OH-Sks"/>
+                            <constraint firstItem="nSY-rJ-AD1" firstAttribute="trailing" secondItem="fFG-Oy-QqD" secondAttribute="trailing" id="K0Y-S6-JsD"/>
+                            <constraint firstItem="GKz-2u-1rR" firstAttribute="top" secondItem="fFG-Oy-QqD" secondAttribute="bottom" constant="51" id="Rol-d7-Jdy"/>
+                            <constraint firstItem="nSY-rJ-AD1" firstAttribute="leading" secondItem="zAT-HH-aee" secondAttribute="leading" id="UMf-1P-El5"/>
+                            <constraint firstItem="nSY-rJ-AD1" firstAttribute="top" secondItem="VOu-kn-fun" secondAttribute="top" constant="98" id="fSN-OJ-deb"/>
+                            <constraint firstItem="nSY-rJ-AD1" firstAttribute="trailing" secondItem="mdn-La-cI7" secondAttribute="trailingMargin" id="ilx-H2-khc"/>
+                            <constraint firstItem="nSY-rJ-AD1" firstAttribute="centerX" secondItem="GKz-2u-1rR" secondAttribute="centerX" id="jat-wI-2fT"/>
+                            <constraint firstItem="nSY-rJ-AD1" firstAttribute="trailing" secondItem="zAT-HH-aee" secondAttribute="trailing" id="ouQ-vo-hVH"/>
+                            <constraint firstItem="zAT-HH-aee" firstAttribute="top" secondItem="nSY-rJ-AD1" secondAttribute="bottom" constant="32" id="ubM-Rp-U7g"/>
+                            <constraint firstItem="fFG-Oy-QqD" firstAttribute="top" secondItem="zAT-HH-aee" secondAttribute="bottom" constant="34" id="zcq-IG-Iu8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mobileTextFiels" destination="zAT-HH-aee" id="EaO-0n-HSm"/>
+                        <outlet property="passwordTextField" destination="fFG-Oy-QqD" id="wD5-Sr-jF8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SoV-v4-mkd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3309.8130841121492" y="-585.09719222462206"/>
         </scene>
         <!--Location Page-->
         <scene sceneID="qBH-Fz-5lO">
@@ -1042,6 +1151,16 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                     <constraint firstAttribute="height" constant="223" id="0B9-fN-9np"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cph-Cm-cNB">
+                                <rect key="frame" x="20" y="47" width="51" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.backward.fill" catalog="system">
+                                    <color key="baseForegroundColor" red="0.88358265160000005" green="0.21911963819999999" blue="0.26403817530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButton:" destination="x8d-HD-iRP" eventType="touchUpInside" id="VqC-d4-ApN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="f0P-2r-6TK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1049,6 +1168,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                             <constraint firstItem="f0P-2r-6TK" firstAttribute="trailing" secondItem="WJO-fm-WwG" secondAttribute="trailing" constant="87" id="3jz-wW-sa7"/>
                             <constraint firstItem="WJO-fm-WwG" firstAttribute="top" secondItem="f0P-2r-6TK" secondAttribute="top" constant="104" id="7T1-IG-9ai"/>
                             <constraint firstItem="f0P-2r-6TK" firstAttribute="trailing" secondItem="4cv-BS-a1E" secondAttribute="trailing" constant="20" id="9Hs-R8-bup"/>
+                            <constraint firstItem="Cph-Cm-cNB" firstAttribute="leading" secondItem="VHQ-Ft-WbI" secondAttribute="leading" id="BhH-l3-Kqm"/>
                             <constraint firstItem="f0P-2r-6TK" firstAttribute="trailing" secondItem="0Z4-1K-mtk" secondAttribute="trailing" constant="20" id="Bk3-s3-WlZ"/>
                             <constraint firstItem="pPD-u1-Jqa" firstAttribute="top" secondItem="KWl-3P-gOh" secondAttribute="bottom" constant="21" id="ETm-nB-62e"/>
                             <constraint firstItem="f0P-2r-6TK" firstAttribute="trailing" secondItem="pPD-u1-Jqa" secondAttribute="trailing" constant="20" id="Hnc-QR-VPh"/>
@@ -1063,6 +1183,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                             <constraint firstItem="4cv-BS-a1E" firstAttribute="top" secondItem="KWl-3P-gOh" secondAttribute="bottom" constant="55" id="jh4-FR-2lK"/>
                             <constraint firstItem="TEC-6J-YHg" firstAttribute="top" secondItem="0Z4-1K-mtk" secondAttribute="bottom" constant="8" symbolic="YES" id="jvY-Uy-CO8"/>
                             <constraint firstItem="f0P-2r-6TK" firstAttribute="trailing" secondItem="KWl-3P-gOh" secondAttribute="trailing" constant="20" id="kof-Zx-PxH"/>
+                            <constraint firstItem="Cph-Cm-cNB" firstAttribute="top" secondItem="f0P-2r-6TK" secondAttribute="top" id="mZl-di-TQ0"/>
                             <constraint firstItem="f0P-2r-6TK" firstAttribute="trailing" secondItem="VHQ-Ft-WbI" secondAttribute="trailing" constant="20" id="rRt-wC-Mg7"/>
                             <constraint firstItem="4cv-BS-a1E" firstAttribute="leading" secondItem="f0P-2r-6TK" secondAttribute="leading" constant="20" id="sfY-yE-9UK"/>
                             <constraint firstItem="0Z4-1K-mtk" firstAttribute="leading" secondItem="f0P-2r-6TK" secondAttribute="leading" constant="20" id="t1f-Kc-rff"/>
@@ -1464,22 +1585,22 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
         <scene sceneID="7ye-oC-rdU">
             <objects>
                 <viewController storyboardIdentifier="controller5ViewController" id="AHi-a8-AA1" customClass="controller5ViewController" customModule="Zomato_Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ROb-Ie-NsH">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ROb-Ie-NsH">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="I9K-rh-4iQ">
-                                <rect key="frame" x="0.0" y="47" width="428" height="44"/>
+                                <rect key="frame" x="0.0" y="47" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="YCt-GF-wk9"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKS-Ir-epb">
-                                <rect key="frame" x="0.0" y="91" width="428" height="808"/>
+                                <rect key="frame" x="0.0" y="91" width="414" height="808"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kw0-ce-LFP">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="900"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GnQ-g7-3g6">
                                                 <rect key="frame" x="8" y="0.0" width="398" height="99"/>
@@ -1833,7 +1954,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                                             <rect key="frame" x="0.0" y="0.0" width="398.5" height="304"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tV7-Jv-xre">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tV7-Jv-xre">
                                                                     <rect key="frame" x="0.0" y="0.0" width="400" height="206"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 </imageView>
@@ -2012,10 +2133,9 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                 <rect key="frame" x="0.0" y="711" width="430" height="221"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Is-6D-Qaw">
-                                        <rect key="frame" x="388" y="0.0" width="42" height="43"/>
+                                        <rect key="frame" x="380.33333333333331" y="0.0" width="49.666666666666686" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="43" id="Rzg-jc-n0s"/>
-                                            <constraint firstAttribute="width" constant="42" id="zvx-2m-c9p"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -2025,15 +2145,6 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                             <action selector="close:" destination="dtE-hm-r06" eventType="touchUpInside" id="Igo-oR-HKR"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWN-u5-w3B">
-                                        <rect key="frame" x="253" y="57" width="56" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="56" id="6pA-dI-z6Q"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yi8-Fo-Lea">
                                         <rect key="frame" x="24" y="34" width="221" height="67"/>
                                         <constraints>
@@ -2044,25 +2155,22 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKC-8Y-73G">
-                                        <rect key="frame" x="24" y="109" width="148" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="148" id="9g8-AY-wn5"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKC-8Y-73G">
+                                        <rect key="frame" x="24.000000000000004" y="109" width="51.333333333333343" height="40"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="g9g-p0-qXn">
-                                        <rect key="frame" x="317" y="51" width="94" height="33"/>
+                                        <rect key="frame" x="253" y="51" width="94" height="33"/>
                                         <color key="backgroundColor" red="1" green="0.32857330949092745" blue="0.30369954858279424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <action selector="stepperAction:" destination="dtE-hm-r06" eventType="valueChanged" id="0Xb-5g-mXM"/>
                                         </connections>
                                     </stepper>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDo-Op-4NW">
-                                        <rect key="frame" x="22" y="157" width="387" height="35"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDo-Op-4NW">
+                                        <rect key="frame" x="22" y="157" width="386" height="35"/>
                                         <color key="backgroundColor" red="0.88358265160000005" green="0.21911963819999999" blue="0.26403817530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -2070,21 +2178,30 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
                                         </buttonConfiguration>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWN-u5-w3B">
+                                        <rect key="frame" x="352" y="51" width="56" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="uKC-8Y-73G" firstAttribute="leading" secondItem="Yi8-Fo-Lea" secondAttribute="leading" id="0qc-Et-6bC"/>
-                                    <constraint firstItem="bWN-u5-w3B" firstAttribute="leading" secondItem="Yi8-Fo-Lea" secondAttribute="trailing" constant="8" id="D5O-4g-Cig"/>
-                                    <constraint firstItem="g9g-p0-qXn" firstAttribute="centerY" secondItem="bWN-u5-w3B" secondAttribute="centerY" id="E9K-8f-4NJ"/>
-                                    <constraint firstItem="g9g-p0-qXn" firstAttribute="top" secondItem="5Is-6D-Qaw" secondAttribute="bottom" constant="8" symbolic="YES" id="G1u-t2-BDV"/>
+                                    <constraint firstItem="g9g-p0-qXn" firstAttribute="top" secondItem="5Is-6D-Qaw" secondAttribute="bottom" constant="8" id="G1u-t2-BDV"/>
                                     <constraint firstItem="5Is-6D-Qaw" firstAttribute="top" secondItem="Wzh-cW-YbZ" secondAttribute="top" id="HVL-8f-0HI"/>
                                     <constraint firstItem="Yi8-Fo-Lea" firstAttribute="leading" secondItem="Wzh-cW-YbZ" secondAttribute="leading" constant="24" id="PuB-rU-k06"/>
-                                    <constraint firstItem="g9g-p0-qXn" firstAttribute="leading" secondItem="bWN-u5-w3B" secondAttribute="trailing" constant="8" symbolic="YES" id="UqS-l3-8l1"/>
+                                    <constraint firstItem="5Is-6D-Qaw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Yi8-Fo-Lea" secondAttribute="trailing" constant="8" symbolic="YES" id="RHE-mY-Os4"/>
+                                    <constraint firstItem="bWN-u5-w3B" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uKC-8Y-73G" secondAttribute="trailing" constant="8" symbolic="YES" id="Tgx-n5-ctV"/>
+                                    <constraint firstItem="g9g-p0-qXn" firstAttribute="leading" secondItem="Yi8-Fo-Lea" secondAttribute="trailing" constant="8" id="Uf5-ic-alB"/>
                                     <constraint firstItem="g9g-p0-qXn" firstAttribute="centerY" secondItem="Yi8-Fo-Lea" secondAttribute="centerY" id="VMc-qh-4df"/>
                                     <constraint firstItem="oDo-Op-4NW" firstAttribute="top" secondItem="uKC-8Y-73G" secondAttribute="bottom" constant="8" symbolic="YES" id="a1f-bh-SmW"/>
                                     <constraint firstAttribute="trailing" secondItem="5Is-6D-Qaw" secondAttribute="trailing" id="am9-z2-Jam"/>
+                                    <constraint firstAttribute="trailing" secondItem="bWN-u5-w3B" secondAttribute="trailing" constant="22" id="chm-Vc-RTW"/>
                                     <constraint firstAttribute="bottom" secondItem="uKC-8Y-73G" secondAttribute="bottom" constant="72" id="eow-DA-pVC"/>
                                     <constraint firstItem="uKC-8Y-73G" firstAttribute="top" secondItem="Yi8-Fo-Lea" secondAttribute="bottom" constant="8" id="fRV-E3-a0l"/>
+                                    <constraint firstItem="oDo-Op-4NW" firstAttribute="top" secondItem="bWN-u5-w3B" secondAttribute="bottom" constant="74" id="lqt-LT-spY"/>
+                                    <constraint firstItem="bWN-u5-w3B" firstAttribute="top" secondItem="g9g-p0-qXn" secondAttribute="bottom" constant="-33" id="qMx-AA-xYq"/>
                                     <constraint firstItem="Yi8-Fo-Lea" firstAttribute="top" secondItem="Wzh-cW-YbZ" secondAttribute="top" constant="34" id="qmK-of-985"/>
                                     <constraint firstItem="oDo-Op-4NW" firstAttribute="centerX" secondItem="Wzh-cW-YbZ" secondAttribute="centerX" id="tfT-Tn-I1a"/>
                                     <constraint firstItem="oDo-Op-4NW" firstAttribute="leading" secondItem="Wzh-cW-YbZ" secondAttribute="leading" constant="22" id="vAQ-uz-iA1"/>
@@ -2107,6 +2224,7 @@ TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE ZOMATO 
                         <outlet property="pop" destination="Wzh-cW-YbZ" id="a4h-5t-tWy"/>
                         <outlet property="price" destination="uKC-8Y-73G" id="T4B-Ls-NXY"/>
                         <outlet property="stepper" destination="g9g-p0-qXn" id="Eh8-cf-frb"/>
+                        <outlet property="stepperLabel" destination="bWN-u5-w3B" id="2Qw-cX-efP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XPs-aP-myh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2792,6 +2910,7 @@ Please email legal@zomato.com if you witness any behavior not in compliance with
         <image name="Discounts" width="188" height="130"/>
         <image name="Zomato-Machine-Learning-1" width="2240" height="1260"/>
         <image name="apple-logo" width="24" height="24"/>
+        <image name="arrowshape.backward.fill" catalog="system" width="128" height="104"/>
         <image name="dinner" width="32" height="32"/>
         <image name="down-arrow" width="32" height="32"/>
         <image name="fast-delivery (3)" width="32" height="32"/>
@@ -2802,6 +2921,9 @@ Please email legal@zomato.com if you witness any behavior not in compliance with
         <image name="placeholder" width="32" height="32"/>
         <image name="wallet (1)" width="24" height="24"/>
         <image name="wallet (2)" width="512" height="512"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

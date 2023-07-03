@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController1: UIViewController {
 
     @IBOutlet weak var pri: UIButton!
-    @IBOutlet weak var mobileTextField: UITextField!
     @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var mobileText: UITextField!
     @IBOutlet weak var loginimage: UIImageView!
+    @IBOutlet weak var passwordText: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         loginimage.layer.cornerRadius = 45
@@ -22,15 +22,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func continueAtion(_ sender: Any) {
-        if mobileTextField.text?.count == 10{
-        let nv = storyboard?.instantiateViewController(withIdentifier: "otpPAg") as! otpPAg
-            navigationController?.pushViewController(nv, animated: true)
+        
+        if Sqlite.checkData(MobileNo: mobileText.text ?? "", password: passwordText.text ?? "") , mobileText.text?.count == 10{
+            let nv = storyboard?.instantiateViewController(withIdentifier: "otpPAg") as! otpPAg
+                navigationController?.pushViewController(nv, animated: true)
         }
-        else{
+        else {
             let alert = UIAlertController.init(title: "ERROR", message: "Please Enter a Valid Mobile number", preferredStyle: .alert)
             alert.addAction(UIAlertAction.init(title: "OK", style: .default, handler: nil))
             present(alert, animated: true, completion: nil)
         }
+        
+    }
+    @IBAction func newUserAction(_ sender: Any) {
+        let nv = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+            navigationController?.pushViewController(nv, animated: true)
     }
     @IBAction func termsOfAction(_ sender: Any) {
         let nv = storyboard?.instantiateViewController(withIdentifier: "termsOfPage") as! termsOfPage

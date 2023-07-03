@@ -20,6 +20,10 @@ class locationPage: UIViewController {
     }
     
 
+    @IBAction func backButton(_ sender: Any) {
+        let nv = storyboard?.instantiateViewController(withIdentifier: "ViewController1") as! ViewController1
+        navigationController?.popToRootViewController(animated: true)
+    }
     @IBAction func locationButtonAction(_ sender: Any) {
         let nv = storyboard?.instantiateViewController(withIdentifier: "TabBar") as! TabBar
         navigationController?.pushViewController(nv, animated: true)
